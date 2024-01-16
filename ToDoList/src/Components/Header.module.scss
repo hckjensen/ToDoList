@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter&display=swap');
+
+
+$font-secondary: 'Indie Flower', cursive;
+$font-main: 'Inter', sans-serif;
+$color-main: #EFD67F;
+$color-secondary: #5a95b6;
+$color-tertiary: #1e1e1e;
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: $color-main;
+    color: $color-tertiary;
+
+
+    h1 {
+
+        font-family: $font-secondary;
+        font-size: 5rem;
+        text-align: center;
+        text-decoration: underline;
+    }
+}
